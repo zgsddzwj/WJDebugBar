@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WJDebugBar_Example' do
+  pod 'WJDebugBar', :path => '../'
+
+  target 'WJDebugBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
