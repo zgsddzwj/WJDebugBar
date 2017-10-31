@@ -1,0 +1,16 @@
+PODS:
+  - WJDebugBar (0.1.0)
+
+DEPENDENCIES:
+  - WJDebugBar (from `../`)
+
+EXTERNAL SOURCES:
+  WJDebugBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WJDebugBar: c19205fd2ccf812fa62e7158b3455e9541699192
+
+PODFILE CHECKSUM: 8a669e2c3d7c70dc94564914c3fe691e3ac00f0f
+
+COCOAPODS: 1.2.1

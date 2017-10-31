@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35549C1A3E36E85FDF67034ECB658ACA /* Pods-WJDebugBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E38C451AE6959A65E434D95F497FAB /* Pods-WJDebugBar_Example-dummy.m */; };
+		4D33DFAAFF189A25F045419D54E5123D /* Pods-WJDebugBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FC7C02281AD4BCFE21F0ED7730958F /* Pods-WJDebugBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5182CFD4B479BF9A355CA23BBBA7247D /* Pods-WJDebugBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E76A5FF6C8298F24964505FB7BA7C1 /* Pods-WJDebugBar_Tests-dummy.m */; };
+		5E54CC2BB46820392E7396315DB38C62 /* WJServerBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD27E82231B951ACF55B8BD3C5A7164 /* WJServerBaseVC.m */; };
+		63447D5101F728634FB6CD5FFA40FF0C /* WJServerBaseVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF6B771BE27C4C63A32478681B7A9C3 /* WJServerBaseVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64377B871658D839CFCB6E87ED269926 /* WJServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B51AE2F14CC864AA6F614AC2F4111FF /* WJServerConfig.m */; };
+		70FB50A1D5F1534C30471FD539A2EFBB /* WJServerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 852CF62A469B91ED600F52F1DA1EFEAE /* WJServerListVC.m */; };
+		90541838D3763C895FA74911DFA8E041 /* WJDebugStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9D710F333A4D3BD5C029B18C00C4C /* WJDebugStatusBar.m */; };
+		A32D4E214EBE2157D7DFB4B20EA0CDBE /* WJDebugBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ACB6BBE71B277B489012E938FCD8575 /* WJDebugBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F2CC5101EB97E04EECAB15FB69A027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B35BC306C58838B991B2446713A84068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B9870DD47660B682E2BD6D2C03E97CF3 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = D921B0BD6B73E6CD13E4B25C6F4C9957 /* UIDevice-Hardware.m */; };
+		BDA33AEEF99829548AFBF1E63E9020E1 /* WJServerListVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA18A0961825D1F52ECCEE8DA1A90DC /* WJServerListVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC437EF37FE06184A6D38C30743C8404 /* UIDevice-Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB7D8003E545AEF43E7A920AF2C3E88 /* UIDevice-Hardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B9772804D741AEC74ED99BD97A0894 /* WJDebugStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 468BADD05054E899AFA34C0200A94846 /* WJDebugStatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBA8F2FAD89B1CE289E55C3FF9F46958 /* Pods-WJDebugBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC0D80DC5FF587D8580B6257701307E8 /* Pods-WJDebugBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69A16EB09B49288689115A01C5A7D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F59244DD0EA8A9823EF17BC7340EFC1F /* WJDebugBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E5F915B81F06BE8D43624FA268741 /* WJDebugBar-dummy.m */; };
+		FEAC74139435C13D1FA52F086C389017 /* WJServerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C318D1E8CA37642665A6F205E4080D /* WJServerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4D8EF3B2BC85DF9E7A35C816CE09500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20309646C97BBF5921FDE8B173695F18;
+			remoteInfo = WJDebugBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B868E6F901CFAB90690368234A50EE9 /* Pods-WJDebugBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJDebugBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BA9D710F333A4D3BD5C029B18C00C4C /* WJDebugStatusBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJDebugStatusBar.m; sourceTree = "<group>"; };
+		2DAEC0D48055505685D98263A915FD0E /* WJDebugBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJDebugBar-prefix.pch"; sourceTree = "<group>"; };
+		37FC7C02281AD4BCFE21F0ED7730958F /* Pods-WJDebugBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJDebugBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		3FF6B771BE27C4C63A32478681B7A9C3 /* WJServerBaseVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJServerBaseVC.h; sourceTree = "<group>"; };
+		42904D3056596496A83B21505D73D0EE /* Pods-WJDebugBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJDebugBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		45C318D1E8CA37642665A6F205E4080D /* WJServerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJServerConfig.h; sourceTree = "<group>"; };
+		468BADD05054E899AFA34C0200A94846 /* WJDebugStatusBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJDebugStatusBar.h; sourceTree = "<group>"; };
+		46C3DB51107714A364074C6F097052BD /* WJDebugBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJDebugBar.xcconfig; sourceTree = "<group>"; };
+		48953D421DAB208F8338EF223CBCC671 /* WJDebugBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJDebugBar.framework; path = WJDebugBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9644627A4EBFE8176C9EF022600792 /* Pods-WJDebugBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJDebugBar_Example.modulemap"; sourceTree = "<group>"; };
+		4FD27E82231B951ACF55B8BD3C5A7164 /* WJServerBaseVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJServerBaseVC.m; sourceTree = "<group>"; };
+		520E5F915B81F06BE8D43624FA268741 /* WJDebugBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJDebugBar-dummy.m"; sourceTree = "<group>"; };
+		62E58CE900267D6CB6EF8D35B53F9351 /* Pods-WJDebugBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJDebugBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		696A8A4D4222FF49A79FE2D96651ABEE /* Pods-WJDebugBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJDebugBar_Tests.modulemap"; sourceTree = "<group>"; };
+		6B51AE2F14CC864AA6F614AC2F4111FF /* WJServerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJServerConfig.m; sourceTree = "<group>"; };
+		77E247D67FD2A5F4A658104AD098BEE9 /* Pods_WJDebugBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJDebugBar_Tests.framework; path = "Pods-WJDebugBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8237EE120BA0809949E87CF41371565B /* Pods-WJDebugBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJDebugBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		852CF62A469B91ED600F52F1DA1EFEAE /* WJServerListVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJServerListVC.m; sourceTree = "<group>"; };
+		8756800C1A2575A9A6187A843085FFE5 /* Pods-WJDebugBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJDebugBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8ACB6BBE71B277B489012E938FCD8575 /* WJDebugBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJDebugBar-umbrella.h"; sourceTree = "<group>"; };
+		90D11FAA16901C7A02FD9AC3E9DDB9BF /* Pods-WJDebugBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJDebugBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA18A0961825D1F52ECCEE8DA1A90DC /* WJServerListVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJServerListVC.h; sourceTree = "<group>"; };
+		A7C5BA5FE4D6A5A165EFCCD3529907AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0D80DC5FF587D8580B6257701307E8 /* Pods-WJDebugBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJDebugBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD10B9AC601E09C65E26506BDD6678C0 /* Pods-WJDebugBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJDebugBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA0468463D6A49C3F1EDD08FEB73B63A /* Pods-WJDebugBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJDebugBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA96EFE0AA5556C2016351DBD3E55A55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E76A5FF6C8298F24964505FB7BA7C1 /* Pods-WJDebugBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJDebugBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		C64B384BD7225F1D14B2A91F1FA8176F /* Pods_WJDebugBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJDebugBar_Example.framework; path = "Pods-WJDebugBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8707B4C292948013330624E0F3C598 /* WJDebugBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJDebugBar.modulemap; sourceTree = "<group>"; };
+		D5CD7695CB36DF7726E8481B3771AB53 /* Pods-WJDebugBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJDebugBar_Example-resources.sh"; sourceTree = "<group>"; };
+		D7F700EBF8F699176C82A96E0BF9D005 /* Pods-WJDebugBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJDebugBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D921B0BD6B73E6CD13E4B25C6F4C9957 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
+		DDDF40B340DB1AC1139954B165547599 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C41D12E891806A50522648D2B75A20 /* Pods-WJDebugBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJDebugBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E38C451AE6959A65E434D95F497FAB /* Pods-WJDebugBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJDebugBar_Example-dummy.m"; sourceTree = "<group>"; };
+		ECB7D8003E545AEF43E7A920AF2C3E88 /* UIDevice-Hardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
+		F0FDC7AFDC112A0ED2CDC50DE0156287 /* Pods-WJDebugBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJDebugBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00D1545D9A774E9FF191588990042E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35BC306C58838B991B2446713A84068 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5454021D08127EEDEAE8E470916CFB48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69A16EB09B49288689115A01C5A7D38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1EFE44F8DBD49007F00E7289FD90FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F2CC5101EB97E04EECAB15FB69A027 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07EC6D8CFD98D6ECCD2349F5643AD173 /* WJDebugBar */ = {
+			isa = PBXGroup;
+			children = (
+				3724F5B007941657D844DEBBCD99D4C3 /* Classes */,
+			);
+			name = WJDebugBar;
+			path = WJDebugBar;
+			sourceTree = "<group>";
+		};
+		10B9DCB3278AADCC2950B3E00FC10DD6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7C5BA5FE4D6A5A165EFCCD3529907AC /* Info.plist */,
+				CF8707B4C292948013330624E0F3C598 /* WJDebugBar.modulemap */,
+				46C3DB51107714A364074C6F097052BD /* WJDebugBar.xcconfig */,
+				520E5F915B81F06BE8D43624FA268741 /* WJDebugBar-dummy.m */,
+				2DAEC0D48055505685D98263A915FD0E /* WJDebugBar-prefix.pch */,
+				8ACB6BBE71B277B489012E938FCD8575 /* WJDebugBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WJDebugBar";
+			sourceTree = "<group>";
+		};
+		15B3271C528DE78BF4EB7864A2265BFE /* Pods-WJDebugBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDF40B340DB1AC1139954B165547599 /* Info.plist */,
+				696A8A4D4222FF49A79FE2D96651ABEE /* Pods-WJDebugBar_Tests.modulemap */,
+				D7F700EBF8F699176C82A96E0BF9D005 /* Pods-WJDebugBar_Tests-acknowledgements.markdown */,
+				0B868E6F901CFAB90690368234A50EE9 /* Pods-WJDebugBar_Tests-acknowledgements.plist */,
+				C5E76A5FF6C8298F24964505FB7BA7C1 /* Pods-WJDebugBar_Tests-dummy.m */,
+				90D11FAA16901C7A02FD9AC3E9DDB9BF /* Pods-WJDebugBar_Tests-frameworks.sh */,
+				8237EE120BA0809949E87CF41371565B /* Pods-WJDebugBar_Tests-resources.sh */,
+				AC0D80DC5FF587D8580B6257701307E8 /* Pods-WJDebugBar_Tests-umbrella.h */,
+				BA0468463D6A49C3F1EDD08FEB73B63A /* Pods-WJDebugBar_Tests.debug.xcconfig */,
+				62E58CE900267D6CB6EF8D35B53F9351 /* Pods-WJDebugBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-WJDebugBar_Tests";
+			path = "Target Support Files/Pods-WJDebugBar_Tests";
+			sourceTree = "<group>";
+		};
+		3724F5B007941657D844DEBBCD99D4C3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECB7D8003E545AEF43E7A920AF2C3E88 /* UIDevice-Hardware.h */,
+				D921B0BD6B73E6CD13E4B25C6F4C9957 /* UIDevice-Hardware.m */,
+				468BADD05054E899AFA34C0200A94846 /* WJDebugStatusBar.h */,
+				2BA9D710F333A4D3BD5C029B18C00C4C /* WJDebugStatusBar.m */,
+				3FF6B771BE27C4C63A32478681B7A9C3 /* WJServerBaseVC.h */,
+				4FD27E82231B951ACF55B8BD3C5A7164 /* WJServerBaseVC.m */,
+				45C318D1E8CA37642665A6F205E4080D /* WJServerConfig.h */,
+				6B51AE2F14CC864AA6F614AC2F4111FF /* WJServerConfig.m */,
+				9EA18A0961825D1F52ECCEE8DA1A90DC /* WJServerListVC.h */,
+				852CF62A469B91ED600F52F1DA1EFEAE /* WJServerListVC.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		387E75C3384B32E714D20976983097E7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BF6969769FB613737F5F7E1F736AECE /* WJDebugBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7BF6969769FB613737F5F7E1F736AECE /* WJDebugBar */ = {
+			isa = PBXGroup;
+			children = (
+				10B9DCB3278AADCC2950B3E00FC10DD6 /* Support Files */,
+				07EC6D8CFD98D6ECCD2349F5643AD173 /* WJDebugBar */,
+			);
+			name = WJDebugBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				387E75C3384B32E714D20976983097E7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				89190AE94793AD683C9ED27C7C56683C /* Products */,
+				E34BEA96C64031AAC6B9AAB3C136DA06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89190AE94793AD683C9ED27C7C56683C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C64B384BD7225F1D14B2A91F1FA8176F /* Pods_WJDebugBar_Example.framework */,
+				77E247D67FD2A5F4A658104AD098BEE9 /* Pods_WJDebugBar_Tests.framework */,
+				48953D421DAB208F8338EF223CBCC671 /* WJDebugBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E34BEA96C64031AAC6B9AAB3C136DA06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9DA653D7FE805FBAD1F648D0F5334E8 /* Pods-WJDebugBar_Example */,
+				15B3271C528DE78BF4EB7864A2265BFE /* Pods-WJDebugBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F9DA653D7FE805FBAD1F648D0F5334E8 /* Pods-WJDebugBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA96EFE0AA5556C2016351DBD3E55A55 /* Info.plist */,
+				4A9644627A4EBFE8176C9EF022600792 /* Pods-WJDebugBar_Example.modulemap */,
+				F0FDC7AFDC112A0ED2CDC50DE0156287 /* Pods-WJDebugBar_Example-acknowledgements.markdown */,
+				8756800C1A2575A9A6187A843085FFE5 /* Pods-WJDebugBar_Example-acknowledgements.plist */,
+				E5E38C451AE6959A65E434D95F497FAB /* Pods-WJDebugBar_Example-dummy.m */,
+				42904D3056596496A83B21505D73D0EE /* Pods-WJDebugBar_Example-frameworks.sh */,
+				D5CD7695CB36DF7726E8481B3771AB53 /* Pods-WJDebugBar_Example-resources.sh */,
+				37FC7C02281AD4BCFE21F0ED7730958F /* Pods-WJDebugBar_Example-umbrella.h */,
+				E0C41D12E891806A50522648D2B75A20 /* Pods-WJDebugBar_Example.debug.xcconfig */,
+				AD10B9AC601E09C65E26506BDD6678C0 /* Pods-WJDebugBar_Example.release.xcconfig */,
+			);
+			name = "Pods-WJDebugBar_Example";
+			path = "Target Support Files/Pods-WJDebugBar_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7FC804EC7F873EB362D15B4DBCF235BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA8F2FAD89B1CE289E55C3FF9F46958 /* Pods-WJDebugBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F79D483BE171249B5606331381A885 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC437EF37FE06184A6D38C30743C8404 /* UIDevice-Hardware.h in Headers */,
+				A32D4E214EBE2157D7DFB4B20EA0CDBE /* WJDebugBar-umbrella.h in Headers */,
+				D4B9772804D741AEC74ED99BD97A0894 /* WJDebugStatusBar.h in Headers */,
+				63447D5101F728634FB6CD5FFA40FF0C /* WJServerBaseVC.h in Headers */,
+				FEAC74139435C13D1FA52F086C389017 /* WJServerConfig.h in Headers */,
+				BDA33AEEF99829548AFBF1E63E9020E1 /* WJServerListVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E768EA6AB80DC86946B65982A8223E4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D33DFAAFF189A25F045419D54E5123D /* Pods-WJDebugBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20309646C97BBF5921FDE8B173695F18 /* WJDebugBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FC7263C401340F5D977805753D0BFF /* Build configuration list for PBXNativeTarget "WJDebugBar" */;
+			buildPhases = (
+				1711D6A95BAEBB6C68D6F022B7D93D17 /* Sources */,
+				00D1545D9A774E9FF191588990042E25 /* Frameworks */,
+				D3F79D483BE171249B5606331381A885 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJDebugBar;
+			productName = WJDebugBar;
+			productReference = 48953D421DAB208F8338EF223CBCC671 /* WJDebugBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB13AED87A864E1EB507151EBA1775D5 /* Pods-WJDebugBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17464753C9D12DB08D5B453ABE177DCE /* Build configuration list for PBXNativeTarget "Pods-WJDebugBar_Tests" */;
+			buildPhases = (
+				5BD81EC4B2D41A5D8EE347A5987E9DA1 /* Sources */,
+				5454021D08127EEDEAE8E470916CFB48 /* Frameworks */,
+				7FC804EC7F873EB362D15B4DBCF235BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WJDebugBar_Tests";
+			productName = "Pods-WJDebugBar_Tests";
+			productReference = 77E247D67FD2A5F4A658104AD098BEE9 /* Pods_WJDebugBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEED6B0B858BBD600816A027ECD347D7 /* Pods-WJDebugBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D70971D4FF7DA4C4EA972B5FC89D92 /* Build configuration list for PBXNativeTarget "Pods-WJDebugBar_Example" */;
+			buildPhases = (
+				ECE5EDDE52584320F574239555727CB1 /* Sources */,
+				D1EFE44F8DBD49007F00E7289FD90FB8 /* Frameworks */,
+				E768EA6AB80DC86946B65982A8223E4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC15531D1E5C790BCD7FFB86C25940BA /* PBXTargetDependency */,
+			);
+			name = "Pods-WJDebugBar_Example";
+			productName = "Pods-WJDebugBar_Example";
+			productReference = C64B384BD7225F1D14B2A91F1FA8176F /* Pods_WJDebugBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 89190AE94793AD683C9ED27C7C56683C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEED6B0B858BBD600816A027ECD347D7 /* Pods-WJDebugBar_Example */,
+				AB13AED87A864E1EB507151EBA1775D5 /* Pods-WJDebugBar_Tests */,
+				20309646C97BBF5921FDE8B173695F18 /* WJDebugBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1711D6A95BAEBB6C68D6F022B7D93D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9870DD47660B682E2BD6D2C03E97CF3 /* UIDevice-Hardware.m in Sources */,
+				F59244DD0EA8A9823EF17BC7340EFC1F /* WJDebugBar-dummy.m in Sources */,
+				90541838D3763C895FA74911DFA8E041 /* WJDebugStatusBar.m in Sources */,
+				5E54CC2BB46820392E7396315DB38C62 /* WJServerBaseVC.m in Sources */,
+				64377B871658D839CFCB6E87ED269926 /* WJServerConfig.m in Sources */,
+				70FB50A1D5F1534C30471FD539A2EFBB /* WJServerListVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD81EC4B2D41A5D8EE347A5987E9DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5182CFD4B479BF9A355CA23BBBA7247D /* Pods-WJDebugBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE5EDDE52584320F574239555727CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35549C1A3E36E85FDF67034ECB658ACA /* Pods-WJDebugBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC15531D1E5C790BCD7FFB86C25940BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJDebugBar;
+			target = 20309646C97BBF5921FDE8B173695F18 /* WJDebugBar */;
+			targetProxy = C4D8EF3B2BC85DF9E7A35C816CE09500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C8588876BCD36BD2CDC3C0A2F4E490A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD10B9AC601E09C65E26506BDD6678C0 /* Pods-WJDebugBar_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJDebugBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJDebugBar_Example/Pods-WJDebugBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJDebugBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24C9F5BDF2DF1A7D12F2E050A402E303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E58CE900267D6CB6EF8D35B53F9351 /* Pods-WJDebugBar_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJDebugBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJDebugBar_Tests/Pods-WJDebugBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJDebugBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FE12EDFE8050B92B6FC2946EED78AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C3DB51107714A364074C6F097052BD /* WJDebugBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJDebugBar/WJDebugBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJDebugBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJDebugBar/WJDebugBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WJDebugBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AFAC035BCCB97DD9CB47E788DA2FB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C3DB51107714A364074C6F097052BD /* WJDebugBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJDebugBar/WJDebugBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJDebugBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJDebugBar/WJDebugBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WJDebugBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4CAA215F97FB3B58B2FEB41D19B42CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C41D12E891806A50522648D2B75A20 /* Pods-WJDebugBar_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJDebugBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJDebugBar_Example/Pods-WJDebugBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJDebugBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE524A53B0A38C786EE578B075A6B28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0468463D6A49C3F1EDD08FEB73B63A /* Pods-WJDebugBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJDebugBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJDebugBar_Tests/Pods-WJDebugBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJDebugBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17464753C9D12DB08D5B453ABE177DCE /* Build configuration list for PBXNativeTarget "Pods-WJDebugBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE524A53B0A38C786EE578B075A6B28D /* Debug */,
+				24C9F5BDF2DF1A7D12F2E050A402E303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FC7263C401340F5D977805753D0BFF /* Build configuration list for PBXNativeTarget "WJDebugBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFAC035BCCB97DD9CB47E788DA2FB24 /* Debug */,
+				5FE12EDFE8050B92B6FC2946EED78AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D70971D4FF7DA4C4EA972B5FC89D92 /* Build configuration list for PBXNativeTarget "Pods-WJDebugBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CAA215F97FB3B58B2FEB41D19B42CE /* Debug */,
+				1C8588876BCD36BD2CDC3C0A2F4E490A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

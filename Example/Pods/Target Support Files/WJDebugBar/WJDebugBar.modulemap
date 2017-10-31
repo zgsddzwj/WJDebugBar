@@ -1,0 +1,6 @@
+framework module WJDebugBar {
+  umbrella header "WJDebugBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

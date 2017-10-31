@@ -1,0 +1,6 @@
+framework module Pods_WJDebugBar_Tests {
+  umbrella header "Pods-WJDebugBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
